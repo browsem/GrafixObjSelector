@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LibraryResource xmlns="urn:abb-robotics-robotstudio-libraryresource"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="urn:abb-robotics-robotstudio-libraryresource file:///C:\Program%20Files%20(x86)\ABB%20Industrial%20IT\Robotics%20IT\SDK\RobotStudio%20SDK%206.06\LibraryResourceSchema.xsd">
+	<SmartComponent name="GrafixObjSelector" description="Select a grafix object">
+		<DynamicProperty name="SourceSelectNumber" description="The input selected"/>
+      <DynamicProperty name="Component0" description="0. object to select"/>
+      <DynamicProperty name="Component1" description="1. object to select"/>
+      <DynamicProperty name="Component2" description="2. object to select"/>
+      <DynamicProperty name="Component3" description="3. object to select"/>
+      <DynamicProperty name="Component3" description="4. object to select"/>
+      <DynamicProperty name="Component3" description="5. object to select"/>
+      <DynamicProperty name="Component3" description="6. object to select"/>
+      <DynamicProperty name="ResultingComponent" description="The selected object"/>
+		<IOSignal name="SourceSelector0" description="Select component 0"/>
+    <IOSignal name="SourceSelector1" description="Select component 1"/>
+    <IOSignal name="SourceSelector2" description="Select component 2"/>
+    <IOSignal name="SourceSelector3" description="Select component 3"/>
+    <IOSignal name="SourceSelector4" description="Select component 4"/>
+    <IOSignal name="SourceSelector5" description="Select component 5"/>
+    <IOSignal name="SourceSelector6" description="Select component 6"/>
+	</SmartComponent>
+</LibraryResource>

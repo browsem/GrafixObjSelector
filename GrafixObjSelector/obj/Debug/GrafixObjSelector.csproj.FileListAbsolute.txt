@@ -1,0 +1,5 @@
+C:\Users\brf\Documents\Visual Studio 2015\Projects\GrafixObjSelector\GrafixObjSelector\GrafixObjSelector\bin\Debug\GrafixObjSelector.dll
+C:\Users\brf\Documents\Visual Studio 2015\Projects\GrafixObjSelector\GrafixObjSelector\GrafixObjSelector\bin\Debug\GrafixObjSelector.pdb
+C:\Users\brf\Documents\Visual Studio 2015\Projects\GrafixObjSelector\GrafixObjSelector\GrafixObjSelector\obj\Debug\GrafixObjSelector.csprojResolveAssemblyReference.cache
+C:\Users\brf\Documents\Visual Studio 2015\Projects\GrafixObjSelector\GrafixObjSelector\GrafixObjSelector\obj\Debug\GrafixObjSelector.dll
+C:\Users\brf\Documents\Visual Studio 2015\Projects\GrafixObjSelector\GrafixObjSelector\GrafixObjSelector\obj\Debug\GrafixObjSelector.pdb

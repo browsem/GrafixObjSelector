@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<lc:LibraryCompiler xmlns:lc="urn:abb-robotics-robotstudio-librarycompiler"
+										xmlns="urn:abb-robotics-robotstudio-graphiccomponent"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="urn:abb-robotics-robotstudio-librarycompiler file:///C:\Program%20Files%20(x86)\ABB%20Industrial%20IT\Robotics%20IT\SDK\RobotStudio%20SDK%206.06\LibraryCompilerSchema.xsd
+                                        urn:abb-robotics-robotstudio-graphiccomponent file:///C:\Program%20Files%20(x86)\ABB%20Industrial%20IT\Robotics%20IT\SDK\RobotStudio%20SDK%206.06\GraphicComponentSchema.xsd">
+	<lc:Library fileName="GrafixObjSelector.rslib">
+		<lc:DocumentProperties>
+			<lc:Author>brf</lc:Author>
+			<lc:Image source="GrafixObjSelector.png"/>
+		</lc:DocumentProperties>
+		<SmartComponent name="GrafixObjSelector" icon="GrafixObjSelector.png"
+										codeBehind="GrafixObjSelector.CodeBehind,GrafixObjSelector.dll"
+										canBeSimulated="false">
+      <Properties>
+        <DynamicProperty name="SourceSelectNumber" valueType="System.Double" value="0" readOnly="true">
+          <Attribute key="MinValue" value="0"/>
+          <Attribute key="MaxValue" value="6"/>
+        </DynamicProperty>
+        <DynamicProperty name="Component0" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component1" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component2" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component3" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component4" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component5" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="Component6" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent">
+        </DynamicProperty>
+        <DynamicProperty name="ResultingComponent" valueType="ABB.Robotics.RobotStudio.Stations.GraphicComponent" readOnly="true">
+        </DynamicProperty>
+      </Properties>
+      <Bindings>
+      </Bindings>
+      <Signals>
+        <IOSignal name="SourceSelector0" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector1" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector2" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector3" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector4" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector5" signalType="DigitalInput"/>
+        <IOSignal name="SourceSelector6" signalType="DigitalInput"/>
+      </Signals>
+      <GraphicComponents>
+			</GraphicComponents>
+			<Assets>
+				<Asset source="GrafixObjSelector.dll"/>
+			</Assets>
+		</SmartComponent>
+	</lc:Library>
+</lc:LibraryCompiler>
